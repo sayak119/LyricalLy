@@ -1,0 +1,66 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "lyrical ly",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetSongIntent",
+                    "slots": [
+                        {
+                            "name": "song",
+                            "type": "AMAZON.LITERAL"
+                        }
+                    ],
+                    "samples": [
+                        "name the song and the artist for {one two three four five six seven|song}",
+                        "song name for {one two three four five six seven eight nine ten eleven|song}",
+                        "song name for {one two three four five six seven eight nine ten eleven twelve|song}",
+                        "song name for {one two three four five six seven eight nine ten eleven twelve thirteen|song}",
+                        "name the song and the artist for {one two three four five six seven eight nine ten eleven twelve thirteen fourteen|song}",
+                        "song name for {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen|song}",
+                        "what is the name of the song {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen|song}",
+                        "what is the name of the song {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen|song}",
+                        "what is the name of the song with lyrics {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen|song}",
+                        "what is the name of the song with lyrics {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen ninteen|song}",
+                        "Name the song with lyrics {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen ninteen twenty|song}",
+                        "Name the song with lyrics {one two three four five six seven eight nine ten|song}",
+                        "Name the song and the artist for {one two three four five six seven eight nine|song}",
+                        "{one two three four five six seven eight|song}",
+                        "{one two three four five six seven|song}",
+                        "{one two three four five six|song}",
+                        "song name for {one two three four five|song}",
+                        "{one two three four|song}",
+                        "{one two three|song}",
+                        "{one two|song}",
+                        "{one| song}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
